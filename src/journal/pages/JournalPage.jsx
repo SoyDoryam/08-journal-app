@@ -9,6 +9,9 @@ export const JournalPage = () => {
         harum, earum, debitis ad labore tempore dolor autem asperiores nisi ipsa
         deserunt officia esse impedit et dolorem hic iste eaque?
       </Typography>
+
+      {/* NothinSelected */}
+      {/* NoteView */}
     </JournalLayout>
   );
 };
