@@ -3,7 +3,7 @@ import { Button, Grid, Link, TextField, Typography } from "@mui/material";
 import Google from "@mui/icons-material/Google";
 import { AuthLayout } from "../layout/AuthLayout";
 
-export const LoginPages = () => {
+export const LoginPage = () => {
   return (
     <AuthLayout title="Login">
       <form>
