@@ -1,5 +1,4 @@
-import MenuOutlined from "@mui/icons-material/MenuOutlined";
-import LogoutOutlined from "@mui/icons-material/LogoutOutlined";
+import { MenuOutlined, LogoutOutlined } from "@mui/icons-material";
 import { AppBar, Grid, IconButton, Toolbar, Typography } from "@mui/material";
 
 export const Navbar = ({ drawerWidth = 240 }) => {
