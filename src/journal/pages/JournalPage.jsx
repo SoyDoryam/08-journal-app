@@ -1,7 +1,7 @@
 import { IconButton } from "@mui/material";
 import { JournalLayout } from "../layout/JournalLayout";
 import { NoteView, NothingSelectedView } from "../views";
-import { AddOutlined } from "@mui/icons-material";
+import { AddOutlined, Opacity } from "@mui/icons-material";
 
 export const JournalPage = () => {
   return (
@@ -12,8 +12,8 @@ export const JournalPage = () => {
         deserunt officia esse impedit et dolorem hic iste eaque?
       </Typography> */}
 
-      {/* <NothingSelectedView /> */}
-      <NoteView />
+      <NothingSelectedView />
+      {/* <NoteView /> */}
 
       <IconButton
         size="large"
